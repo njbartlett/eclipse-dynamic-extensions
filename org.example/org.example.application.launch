@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+<booleanAttribute key="append.args" value="true"/>
+<stringAttribute key="application" value="org.example.application"/>
+<booleanAttribute key="askclear" value="true"/>
+<booleanAttribute key="automaticAdd" value="false"/>
+<booleanAttribute key="automaticValidate" value="true"/>
+<stringAttribute key="bootstrap" value=""/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearConfig" value="false"/>
+<booleanAttribute key="clearws" value="false"/>
+<booleanAttribute key="clearwslog" value="false"/>
+<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/org.example.application"/>
+<booleanAttribute key="default" value="false"/>
+<booleanAttribute key="includeOptional" value="false"/>
+<stringAttribute key="location" value="${workspace_loc}/../runtime-org.example.application"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.JAVA_COMMAND" value="java"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-consoleLog -console"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xms40m -Xmx512m -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Declipse.registry.nulltoken=true"/>
+<booleanAttribute key="pde.generated.config" value="false"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<stringAttribute key="product" value="org.eclipse.emf.cdo.server.product"/>
+<stringAttribute key="selected_target_plugins" value="org.eclipse.core.databinding.property@default:default,org.eclipse.ui@default:default,org.eclipse.equinox.common@2:true,org.eclipse.jface.databinding@default:default,name.neilbartlett.eclipse.bundlemonitor.swt@default:default,org.eclipse.osgi.services@default:default,org.eclipse.core.jobs@default:default,org.eclipse.core.runtime@default:true,org.eclipse.osgi@-1:true,org.eclipse.swt@default:default,org.eclipse.ui.workbench@default:default,org.eclipse.core.databinding@default:default,org.eclipse.core.databinding.observable@default:default,org.eclipse.core.commands@default:default,org.eclipse.core.expressions@default:default,name.neilbartlett.eclipse.bundlemonitor@default:default,org.eclipse.equinox.registry@default:default,org.eclipse.jface@default:default,org.eclipse.equinox.ds@default:true,org.eclipse.equinox.preferences@default:default,com.ibm.icu@default:default,org.eclipse.ui.cocoa@default:false,org.eclipse.equinox.app@default:default,org.eclipse.swt.cocoa.macosx.x86_64@default:false,org.eclipse.help@default:default,org.eclipse.equinox.util@default:default,org.jdom@default:default,org.eclipse.core.contenttype@default:default"/>
+<stringAttribute key="selected_workspace_plugins" value="org.example.scr@default:default,name.njbartlett.eclipse.dynext@default:default,name.njbartlett.eclipse.dynext.scr@default:default,name.njbartlett.eclipse.dynext.test@default:false,org.example@default:default"/>
+<booleanAttribute key="show_selected_only" value="false"/>
+<booleanAttribute key="tracing" value="false"/>
+<booleanAttribute key="useCustomFeatures" value="false"/>
+<booleanAttribute key="useDefaultConfig" value="true"/>
+<booleanAttribute key="useDefaultConfigArea" value="true"/>
+<booleanAttribute key="useProduct" value="false"/>
+<booleanAttribute key="usefeatures" value="false"/>
+</launchConfiguration>

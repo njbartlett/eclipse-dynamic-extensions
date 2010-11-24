@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" factory="@dynamicExt:sample-plugin.xml/testView" name="org.example.scr">
+   <implementation class="org.example.scr.TestView"/>
+   <reference bind="setPackageAdmin" cardinality="1..1" interface="org.osgi.service.packageadmin.PackageAdmin" name="PackageAdmin" policy="static" unbind="unsetPackageAdmin"/>
+</scr:component>

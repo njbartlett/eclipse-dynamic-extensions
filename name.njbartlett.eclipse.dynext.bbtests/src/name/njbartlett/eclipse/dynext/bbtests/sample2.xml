@@ -1,0 +1,10 @@
+<plugin>
+   <extension
+         point="name.njbartlett.eclipse.dynext.bbtests.sampleExtPoint">
+      <sample
+            class="@FACTORY_ID=foo"
+            id="name.njbartlett.eclipse.dynext.bbtests.sample1"
+            name="Sample Name">
+      </sample>
+   </extension>
+</plugin>

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SCR View Example
+Bundle-SymbolicName: org.example.scr;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.example.scr.Activator
+Bundle-Vendor: Neil Bartlett
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ name.njbartlett.eclipse.dynext;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Service-Component: component.xml

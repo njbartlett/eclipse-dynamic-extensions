@@ -1,0 +1,11 @@
+# Eclipse detritus
+/.metadata
+/*/bin
+
+# Vim detritus
+*~
+
+# Mac OS detritus
+.DS_Store
+
+

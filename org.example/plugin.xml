@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="org.example.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="Perspective"
+            class="org.example.Perspective"
+            id="org.example.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.example.perspective">
+         <view
+               id="name.neilbartlett.eclipse.bundlemonitor.bundlesView"
+               minimized="false"
+               relationship="left"
+               relative="org.eclipse.ui.editorss">
+         </view>
+         <view
+               id="name.neilbartlett.eclipse.bundlemonitor.configsView"
+               minimized="false"
+               ratio="0.5"
+               relationship="bottom"
+               relative="name.neilbartlett.eclipse.bundlemonitor.bundlesView">
+         </view>
+      </perspectiveExtension>
+   </extension>
+
+</plugin>

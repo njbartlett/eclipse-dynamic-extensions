@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SCR Dynamic Extensions
+Bundle-SymbolicName: name.njbartlett.eclipse.dynext.scr
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Neil Bartlett
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Import-Package: name.njbartlett.eclipse.dynext.contribute,
+ org.eclipse.core.runtime;version="[3.3.0,4.0.0)",
+ org.osgi.framework;version="[1.4.0,2.0.0)",
+ org.osgi.service.component;version="[1.1.0,2.0.0)",
+ org.osgi.util.tracker;version="1.4.0"
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: name.njbartlett.eclipse.dynext.scr.Activator
