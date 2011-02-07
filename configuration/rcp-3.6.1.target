@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.6"?>
+
+<target name="RCP-3.6">
+<locations>
+<location path="${workspace_loc}/configuration/dependencymanager" type="Profile"/>
+<location path="${workspace_loc}/configuration/extras" type="Directory"/>
+<location path="${workspace_loc}/configuration/test-framework-3.6.1/eclipse" type="Profile"/>
+<location path="${workspace_loc}/configuration/RCP-3.6.1/eclipse" type="Profile"/>
+<location path="${workspace_loc}/configuration/BundleMonitor" type="Profile"/>
+</locations>
+</target>

@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-   <extension
-         point="org.eclipse.ui.views">
+   <extension point="org.eclipse.ui.views">
       <view
-            class="@FACTORY_ID=testView"
-            icon="icons/lightning.png"
             id="org.example.scr.testView"
-            name="Test!"
-            restorable="true">
+            name="Test"
+            class="@FACTORY_ID=testView">
       </view>
    </extension>
-
 </plugin>
